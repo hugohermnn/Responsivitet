@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Responsiv design</title>
 </head>
 <body>
     <div class="header">
@@ -17,27 +17,44 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="page2.html">Grid view</a></li>
             <li><a href="page3.html">Media Queries</a></li>
+            <li><a href="page4.html">Exempel på bra responsiva hemsidor</a></li>
           </ul>
         </div>
       
         <div class="col-6">
-          <h1>The City</h1>
-          <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+          <h1>Grid view</h1>
+          <p>CSS Grid är en layoutmodel som skapar ett rutnärs system som ger skaparen möjlighet att kunna placera element i rader (horizonstelt) och i kolumer (vertikalt).
+            För att göra hemsidor responsiv med Grid View används fr enheter (Fractional units). Det delar upp utrymme i proposioner som automatiskt anpassar sig efter tillgängligt utrymme.
+            <br>
+            <br>
+            <img src="Skärmbild 2025-01-21 160905.png" alt="Exempel på auto Auto-fit">
+            Auto-fit och Auto-fill används också tillsammans med Grid View för att göra hemsidan mer responsiv. Auto-fit fyller så många kolumer som möjligt och krymper dem ifall det behövs. 
+            Auto-fill skapar kolumer som är tomma om det inte finns tillgängligt med innehåll. I exemplet ovan kommer det skapas dynmaiska kolumer som är minst 200px breda men kan bli större vid behov. På mindre skärmar kommer antalet kolumer misnka automatiskt.
+            <br>
+            <br>
+            <br>
+            <img src="Skärmbild 2025-01-21 160703.png" alt="Exempel på minmax">
+            Det finns även något som som heter minmax(). Det låter skaparen av hemsidan sätta ett minimum eller maximum för kolumer. Detta gör layouten mer responsiv. Kolumerna i exemplet ovan kommer kolumerna minst vara 150px men kan däremot växa till en flexibel storlek. 
+            <br>
+            <br>
+            <img src="Skärmbild 2025-01-21 161304.png" alt="Exempel på Media Queries när det används tillsammans med Grid View">
+            Oftas kombineras Grid View med Media Queries för att reducera kolumerna på mindre skärmar vilket gör hemsidan ännu mer mobil vänlig. Mer om Media Queries kan du hitta i menyn. I exemplet ovan kommer skärmar som är över 7687px visa tre kolumer, skärmar som är under 768px kommer att visa två kolumer medans mobiltelefeoner under 480px kommer bara att visa en kolum. Detta är ett bra exmpel på hur gird view kan användas med Media Quieries på ett bra.
+            <br>
+            <br>
+            Fördelar med Grid View är att det är enkelt att lära sig skapa responsiva sidor med minamal kod.
+            <br>
+            Det gör att Media Queries inte behövs användas alltid utan istället kan auto-fit och minmax() gör mycket av anpassningen.
+          </p>
         </div>
       
         <div class="col-3 right">
           <div class="aside">
             <h2>Vad?</h2>
-            <p>Chania is a city on the island of Crete.</p>
-            <h2>?</h2>
-            <p>Crete is a Greek island in the Mediterranean Sea.</p>
-            <h2>How?</h2>
-            <p>You can reach Chania airport from all over Europe.</p>
+            <p>Vad används för att göra responsiva sidor</p>
+            <h2>Hur?</h2>
+            <p>Med hjälp av Media Queries och Grid view</p>
           </div>
         </div>
-      </div>
-      
-      
-      
+      </div>  
 </body>
 </html>

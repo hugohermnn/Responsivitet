@@ -4,40 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Responsiv design</title>
 </head>
 <body>
     <div class="header">
         <h1>Responsiv design</h1>
       </div>
-      
       <div class="row">
         <div class="col-3 menu">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="page2.html">Grid view</a></li>
             <li><a href="page3.html">Media Queries</a></li>
+            <li><a href="page4.html">Exempel på bra responsiva hemsidor</a></li>
           </ul>
         </div>
-      
         <div class="col-6">
-          <h1>The City</h1>
-          <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+          <h1>Media Queries</h1>
+          <p>Media Queries introducerades i CSS3. Det är ett väldigt kraftfullt verktyg som tillämpar olika stillar och layouts 
+            beroende vilkoren som skaparen har satt. Den vanligaste användingen för Media Queries är att göra en hemsida 
+            responsiv till olika typer av enheter t.ex mobiler, surfplattor eller datorer. 
+            <br>
+            <br>
+            När en hemsidan laddas analyserar webbläsaren upplösningen, bredden och höjden, Orientering (landskap eller porträtt) och om det är 
+            Screen eller Print. Screen och Print är två olika mediatyper i CSS som anpassar hemsidna beronde på om den ska vissa på skärm eller skrivas ut.
+            Print ingorerar animationer och interaktiva element och gör hemsidan mer vänlig ifall den ska skrivas ut. Hemsidan anpassar senare layounten, färger  
+            eller något annat som står innanför Media Querien.
+          </p>
+          <img src="Skärmbild 2025-01-18 164301.png" alt="Ett exempel på Media Queries">
+          <p>Koden ovanför är att om skärmen är mindre än 1023px kommer bakgrunds färgen att bli röd. Det går att göra samma sak fast om skärmen skulle varit större än 1023px. 
+            Det går såklart att ändra fler saker än bakgrundsfärgen. Det viktigaste att komma ihåg att det är en "Media screen", vilket betyder att detta vissas när hemsidan används på en skärm.
+          </p>
+          <img src="Skärmbild 2025-01-19 143229.png" alt="Ett exemepel på Media Queries">
+          <p>Koden ovanför är ett exemepl på hur Media Queries kan användas med Print. Här ändras textens storlek för att göra det lättare att läsa och 
+            hemsidan blir svart och vit vilket ska spara på bläxk när den skrivs ut. Detta är bara ett litet exempel på hur Print kan användas. 
+          </p>
         </div>
-      
         <div class="col-3 right">
           <div class="aside">
             <h2>Vad?</h2>
-            <p>Chania is a city on the island of Crete.</p>
-            <h2>?</h2>
-            <p>Crete is a Greek island in the Mediterranean Sea.</p>
-            <h2>How?</h2>
-            <p>You can reach Chania airport from all over Europe.</p>
+            <p>Vad används för att göra responsiva sidor</p>
+            <h2>Hur?</h2>
+            <p>Med hjälp av Media Queries och Grid view</p>
           </div>
         </div>
-      </div>
-      
-      
-      
+      </div>    
 </body>
 </html>
